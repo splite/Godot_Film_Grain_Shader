@@ -1,8 +1,8 @@
-# Godot Film Grain Shader
+# Godot Game Engine Film Grain Shader
 
 ![Grainy robot](https://github.com/splite/Godot_Film_Grain_Shader/blob/master/screenshots/robot.gif)
 
-This is my import of the Film Grain shader for the Godot game engine - original shader is from [Martinsh](http://devlog-martinsh.blogspot.cz/2013/05/image-imperfections-and-film-grain-post.html)
+This is my import of the Film Grain shader for the [Godot Game Engine](https://github.com/godotengine/godot/) - original shader is from [Martinsh](http://devlog-martinsh.blogspot.cz/2013/05/image-imperfections-and-film-grain-post.html)
 
 
 ## Fragment Shader:
@@ -181,3 +181,8 @@ You can do this by simple (build-in, why not...) script:
 * It looks differently in-editor and ingame (becouse you does not edit in your game resolution) so just run your game before you throw it out. You can simply set `enabled=false` on your material and `enabled=true` via script.
 
 * Consider support of disabling Film Grain at all via ingame menu (some guys are alergic about this effect)
+
+## Licence
+Mathiash released his shader under [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/). You have to attribute him.
+
+My tutorial is licensed under [Public Domain (CC0)](https://creativecommons.org/publicdomain/zero/1.0/). Do what you want.
