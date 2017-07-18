@@ -183,6 +183,6 @@ You can do this by simple (build-in, why not...) script:
 * Consider support of disabling Film Grain at all via ingame menu (some guys are alergic about this effect)
 
 ## Licence
-Mathiash released his shader under [Creative Commons Attribution 3.0 (CC-by-30)](https://creativecommons.org/licenses/by/3.0/). You have to attribute him.
+Martinsh released his shader under [Creative Commons Attribution 3.0 (CC-by-30)](https://creativecommons.org/licenses/by/3.0/). You have to attribute him.
 
 My tutorial is licensed under [Public Domain (CC0)](https://creativecommons.org/publicdomain/zero/1.0/). Do what you want.
