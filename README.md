@@ -146,6 +146,8 @@ This is my import of the Film Grain shader for the Godot game engine - original 
     }
 
 ## How to use
+Please note that this depends heavily on the structure of your game, there really isnt any "one solution for all!"
+
 All you need is the [`Viewport`](http://docs.godotengine.org/en/stable/learning/features/viewports/viewports.html) and the [`ViewportSprite`](http://docs.godotengine.org/en/stable/classes/class_viewportsprite.html).
 
 1. Set `Viewport.RenderTarget` to `true`.
