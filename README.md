@@ -120,8 +120,6 @@ This is my import of the Film Grain shader for the [Godot Game Engine](https://g
 
     if (enabled)
     {
-
-	
 	    vec3 rotOffset = vec3(1.425,3.892,5.835); //rotation offset values	
 	    vec2 rotCoordsR = coordRot(UV, TIME + rotOffset.x);
 	    vec3 noise = vec3(pnoise3D(vec3(rotCoordsR*vec2(screen_size.x/grain_size,screen_size.y/grain_size),0.0)));
@@ -179,7 +177,7 @@ You can do this by simple (build-in, why not...) script:
 
 ## Notes
 * It looks differently in-editor and ingame (becouse you does not edit in your game resolution) so just run your game before you throw it out. You can simply set `enabled=false` on your material and `enabled=true` via script.
-
+* You can play with `grain_amount`, `colored`, `color_amount`, `grain_size` and `lum_amount` variables for different effects
 * Consider support of disabling Film Grain at all via ingame menu (some guys are alergic about this effect)
 
 ## Licence
