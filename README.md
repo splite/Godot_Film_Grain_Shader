@@ -146,7 +146,7 @@ This is my import of the Film Grain shader for the Godot game engine - original 
     }
 
 ## How to use
-Please note that this depends heavily on the structure of your game, there really isnt any "one solution for all!"
+Please note that this depends heavily on the structure of your game, there really isnt any "one solution fit them all!"
 
 All you need is the [`Viewport`](http://docs.godotengine.org/en/stable/learning/features/viewports/viewports.html) and the [`ViewportSprite`](http://docs.godotengine.org/en/stable/classes/class_viewportsprite.html).
 
@@ -164,12 +164,12 @@ You can do this by simple (build-in, why not...) script:
     extends ViewportSprite
     
     func _ready():
-      # if you have one resolution:
-      self.get_viewport().set_as_render_target(true)
+    	# if you have one resolution:
+    	self.get_viewport().set_as_render_target(true)
     	self.get_viewport().set_rect(Rect2(Vector2(0,0), OS.get_window_size()))
     	self.get_material().set_shader_param("screen_size", OS.get_window_size())
     	self.get_material().set_shader_param("enabled", true)
-      # or write your own "resolution changed" listener (you got the idea...)
+    	# or write your own "resolution changed" listener (you got the idea...)
 
 ## Notes
 * It looks differently in-editor and ingame (becouse you does not edit in your game resolution) so just run your game before you throw it out. You can simply set `enabled=false` on your material and `enabled=true` via script.
