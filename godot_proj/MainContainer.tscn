@@ -51,7 +51,7 @@ offset = Vector2( 0, 0 )
 rotation = 0.0
 scale = Vector2( 1, 1 )
 
-[node name="Label_InGameDemo" type="Label" parent="Gui"]
+[node name="Label_FilmGrainDemo" type="Label" parent="Gui"]
 
 anchor/left = 3
 anchor/right = 3
