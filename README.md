@@ -1,6 +1,9 @@
 # Godot Film Grain Shader
 
+![Grainy robot](https://github.com/splite/Godot_Film_Grain_Shader/blob/master/screenshots/robot.gif)
+
 This is my import of the Film Grain shader for the Godot game engine - original shader is from [Martinsh](http://devlog-martinsh.blogspot.cz/2013/05/image-imperfections-and-film-grain-post.html)
+
 
 ## Fragment Shader:
 
@@ -170,6 +173,9 @@ You can do this by simple (build-in, why not...) script:
     	self.get_material().set_shader_param("screen_size", OS.get_window_size())
     	self.get_material().set_shader_param("enabled", true)
     	# or write your own "resolution changed" listener (you got the idea...)
+
+![your main scene look like this](https://github.com/splite/Godot_Film_Grain_Shader/blob/master/screenshots/simple_scene.png)
+
 
 ## Notes
 * It looks differently in-editor and ingame (becouse you does not edit in your game resolution) so just run your game before you throw it out. You can simply set `enabled=false` on your material and `enabled=true` via script.
